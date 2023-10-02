@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.green-center{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  color: green;
+}
+
+.grey-center{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  color: red;
+}
+.pink-center{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  color: blue
+}
+.yellow-center{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  color:purple
+}
+.black-center{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  color:teal;
+}
