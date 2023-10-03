@@ -25,5 +25,7 @@ urlpatterns = [
     path('MoviesILike', views.create_MoviesILike),
     path('MoviesILike/update/<id>', views.update_MoviesILike),
     path("MoviesILike/delete/<id>",views.delete_MoviesILike),
-    path('admin/', admin.site.urls)
+    path('admin/', admin.site.urls),
 ]
+
+
